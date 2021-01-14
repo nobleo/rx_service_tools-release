@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rx_service_tools</name>
+  <version>1.0.1</version>
+  <description>Graphical tools to interact with ROS services.</description>
+
+  <maintainer email="tim.clephas@nobleo.nl">Tim Clephas</maintainer>
+  <author email="ahosseini@synapticon.com">Alireza Hosseini</author>
+  <author email="fwidmaier@synapticon.com">Felix Widmaier</author>
+
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/nobleo/rx_service_tools</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>roslib</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>wxpython</exec_depend>
+  <exec_depend>python-argparse</exec_depend>
+  <exec_depend>python-yaml</exec_depend>
+
+  <export>
+  </export>
+</package>
