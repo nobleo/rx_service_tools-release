@@ -1,0 +1,18 @@
+ros-noetic-rx-service-tools (1.0.2-1buster) buster; urgency=high
+
+  * Noetic migration using roscompile
+
+ -- Tim Clephas <tim.clephas@nobleo.nl>  Tue, 26 Jan 2021 23:00:00 -0000
+
+ros-noetic-rx-service-tools (1.0.1-1buster) buster; urgency=high
+
+  * Roslaunch compatible by allowing unkown arguments (#1 <https://github.com/nobleo/rx_service_tools/issues/1>)
+    Only parse known arguments as roslaunch tends to add arguments like __name:= and __log:=
+  * feat: Interactive service server GUI
+    Based on the actionlib/axserver.py. Works exactly the same but for
+    services instead of actions.
+  * Contributors: Felix Widmaier, Tim Clephas
+
+ -- Tim Clephas <tim.clephas@nobleo.nl>  Wed, 13 Jan 2021 23:00:00 -0000
+
+

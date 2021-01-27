@@ -1,0 +1,12 @@
+Source: ros-noetic-rx-service-tools
+Section: misc
+Priority: optional
+Maintainer: Tim Clephas <tim.clephas@nobleo.nl>
+Build-Depends: debhelper (>= 9.0.0), python3-setuptools, ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-rx-service-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-wxgtk3.0, python3-yaml, ros-noetic-roslib, ros-noetic-rospy
+Description: Graphical tools to interact with ROS services.
